@@ -1,0 +1,116 @@
+{
+  "common": {
+    "continue": "Continue",
+    "back": "Back",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "save": "Save",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "languageSwitcher": "Language switcher"
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "subtitle": "Sign in to your account",
+      "email": "Email address",
+      "password": "Password",
+      "emailPlaceholder": "Ex: johndoe{'@'}example.com",
+      "passwordPlaceholder": "Enter your password",
+      "submit": "Sign in",
+      "createAccount": "Create an account",
+      "testCredentials": {
+        "title": "Test credentials",
+        "email": "Email",
+        "password": "Password",
+        "emailValue": "demo{'@'}example.com",
+        "passwordValue": "demo123"
+      },
+      "errors": {
+        "emailRequired": "Email is required",
+        "emailInvalid": "Invalid email format",
+        "passwordRequired": "Password is required",
+        "passwordMinLength": "Password must contain at least 6 characters",
+        "invalidCredentials": "Invalid email or password",
+        "generic": "An error occurred during login"
+      }
+    },
+    "logout": "Sign out"
+  },
+  "registration": {
+    "personalDetails": {
+      "title": "Let's get to know each other",
+      "alreadyHaveAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "stepper": {
+        "step1": "Let's get to know each other",
+        "step2": "Create your workspace",
+        "step3": "To know you better"
+      },
+      "firstname": "First name",
+      "lastname": "Last name",
+      "email": "Email",
+      "profilePhoto": "Profile photo",
+      "firstnamePlaceholder": "Ex: John",
+      "lastnamePlaceholder": "Ex: Doe",
+      "emailPlaceholder": "Ex: johndoe{'@'}example.com",
+      "errors": {
+        "firstnameRequired": "First name is required",
+        "lastnameRequired": "Last name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Invalid email format"
+      }
+    },
+    "workspace": {
+      "title": "Create your workspace",
+      "logo": "Company logo",
+      "name": "Company name",
+      "description": "Company description",
+      "website": "Website",
+      "address": "Registered office address",
+      "sector": "Activity sector",
+      "namePlaceholder": "Ex: Acme Corporation",
+      "descriptionPlaceholder": "Describe your company...",
+      "websitePlaceholder": "Ex: https://www.example.com",
+      "addressPlaceholder": "Ex: 123 Main Street, 10001 New York, USA",
+      "sectorPlaceholder": "Ex: Technology, Commerce, Services...",
+      "errors": {
+        "nameRequired": "Company name is required",
+        "addressRequired": "Registered office address is required",
+        "sectorRequired": "Activity sector is required"
+      },
+      "fileFormat": "in *.png or *.jpeg format max 5MB",
+      "addPhoto": "Add a photo",
+      "modifyPhoto": "Modify photo"
+    },
+    "aboutYou": {
+      "title": "To know you better",
+      "description": "Describe your company",
+      "sector": "Activity sector",
+      "size": "Company size",
+      "descriptionPlaceholder": "Tell us about your company, your goals, etc.",
+      "sectorPlaceholder": "Ex: Technology, Commerce, Services...",
+      "sizePlaceholder": "Select a size",
+      "createAccount": "Create account",
+      "sizes": {
+        "1-10": "1-10 employees",
+        "11-50": "11-50 employees",
+        "51-200": "51-200 employees",
+        "201-500": "201-500 employees",
+        "500+": "500+ employees"
+      },
+      "errors": {
+        "createAccountError": "An error occurred while creating the account"
+      }
+    }
+  },
+  "home": {
+    "title": "Welcome",
+    "subtitle": "You are logged in",
+    "welcome": "Welcome, {email} !",
+    "description": "This page is only accessible when logged in."
+  }
+}
+

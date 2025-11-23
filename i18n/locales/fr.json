@@ -1,0 +1,116 @@
+{
+  "common": {
+    "continue": "Continuer",
+    "back": "Retour",
+    "submit": "Valider",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "save": "Enregistrer",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "languageSwitcher": "Sélecteur de langue"
+  },
+  "auth": {
+    "login": {
+      "title": "Connexion",
+      "subtitle": "Connectez-vous à votre compte",
+      "email": "Adresse mail",
+      "password": "Mot de passe",
+      "emailPlaceholder": "Ex: jeandupont{'@'}example.com",
+      "passwordPlaceholder": "Entrez votre mot de passe",
+      "submit": "Se connecter",
+      "createAccount": "Créer un compte",
+      "testCredentials": {
+        "title": "Identifiants de test",
+        "email": "Email",
+        "password": "Mot de passe",
+        "emailValue": "demo{'@'}example.com",
+        "passwordValue": "demo123"
+      },
+      "errors": {
+        "emailRequired": "L'email est requis",
+        "emailInvalid": "Format d'email invalide",
+        "passwordRequired": "Le mot de passe est requis",
+        "passwordMinLength": "Le mot de passe doit contenir au moins 6 caractères",
+        "invalidCredentials": "Email ou mot de passe incorrect",
+        "generic": "Une erreur est survenue lors de la connexion"
+      }
+    },
+    "logout": "Se déconnecter"
+  },
+  "registration": {
+    "personalDetails": {
+      "title": "Faisons connaissance",
+      "alreadyHaveAccount": "Vous avez déjà un compte ?",
+      "signIn": "Se connecter",
+      "stepper": {
+        "step1": "Faisons connaissance",
+        "step2": "Créer votre espace de travail",
+        "step3": "Pour mieux vous connaitre"
+      },
+      "firstname": "Prénom",
+      "lastname": "Nom",
+      "email": "Email",
+      "profilePhoto": "Photo de profil",
+      "firstnamePlaceholder": "Ex: Jean",
+      "lastnamePlaceholder": "Ex: Dupont",
+      "emailPlaceholder": "Ex: jeandupont{'@'}example.com",
+      "errors": {
+        "firstnameRequired": "Le prénom est requis",
+        "lastnameRequired": "Le nom est requis",
+        "emailRequired": "L'email est requis",
+        "emailInvalid": "Format d'email invalide"
+      }
+    },
+    "workspace": {
+      "title": "Créer votre espace de travail",
+      "logo": "Logo de l'entreprise",
+      "name": "Nom de l'entreprise",
+      "description": "Description de l'entreprise",
+      "website": "Site internet",
+      "address": "Adresse du siège social",
+      "sector": "Secteur d'activité",
+      "namePlaceholder": "Ex: Acme Corporation",
+      "descriptionPlaceholder": "Décrivez votre entreprise...",
+      "websitePlaceholder": "Ex: https://www.example.com",
+      "addressPlaceholder": "Ex: 123 Rue de la République, 75001 Paris, France",
+      "sectorPlaceholder": "Ex: Technologie, Commerce, Services...",
+      "errors": {
+        "nameRequired": "Le nom de l'entreprise est requis",
+        "addressRequired": "L'adresse du siège social est requise",
+        "sectorRequired": "Le secteur d'activité est requis"
+      },
+      "fileFormat": "au format *.png ou *.jpeg max 5mo",
+      "addPhoto": "Ajouter une photo",
+      "modifyPhoto": "Modifier la photo"
+    },
+    "aboutYou": {
+      "title": "Pour mieux vous connaitre",
+      "description": "Décrivez votre entreprise",
+      "sector": "Secteur d'activité",
+      "size": "Taille de l'entreprise",
+      "descriptionPlaceholder": "Parlez-nous de votre entreprise, vos objectifs, etc.",
+      "sectorPlaceholder": "Ex: Technologie, Commerce, Services...",
+      "sizePlaceholder": "Sélectionnez une taille",
+      "createAccount": "Créer le compte",
+      "sizes": {
+        "1-10": "1-10 employés",
+        "11-50": "11-50 employés",
+        "51-200": "51-200 employés",
+        "201-500": "201-500 employés",
+        "500+": "500+ employés"
+      },
+      "errors": {
+        "createAccountError": "Une erreur est survenue lors de la création du compte"
+      }
+    }
+  },
+  "home": {
+    "title": "Bienvenue",
+    "subtitle": "Vous êtes connecté",
+    "welcome": "Bienvenue, {email} !",
+    "description": "Cette page est accessible uniquement en mode connecté."
+  }
+}
+
