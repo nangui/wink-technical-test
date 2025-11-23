@@ -1,0 +1,112 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+@import "@fontsource/dm-sans/400.css";
+@import "@fontsource/dm-sans/500.css";
+@import "@fontsource/dm-sans/600.css";
+@import "@fontsource/dm-sans/700.css";
+
+/* Configuration du thème avec les variables Figma */
+@theme static {
+  /* Police DM Sans */
+  --font-sans: 'DM Sans', sans-serif;
+  
+  /* Palette de couleurs primary basée sur #0072FF */
+  --color-primary-50: #E6F2FF;
+  --color-primary-100: #CCE5FF;
+  --color-primary-200: #99CBFF;
+  --color-primary-300: #66B1FF;
+  --color-primary-400: #3397FF;
+  --color-primary-500: #0072FF;
+  --color-primary-600: #005CE6;
+  --color-primary-700: #0046B3;
+  --color-primary-800: #003080;
+  --color-primary-900: #001A4D;
+  --color-primary-950: #000D26;
+  
+  /* Palette de couleurs neutral basée sur les couleurs Figma */
+  --color-neutral-50: #F9FAFB;
+  --color-neutral-100: #F2F4F7;
+  --color-neutral-200: #E4E7EC;
+  --color-neutral-300: #D0D5DD;
+  --color-neutral-400: #98A2B3;
+  --color-neutral-500: #667085;
+  --color-neutral-600: #344054;
+  --color-neutral-700: #1D2939;
+  --color-neutral-800: #101828;
+  --color-neutral-900: #0C111D;
+  --color-neutral-950: #060A13;
+}
+
+:root {
+  /* Couleurs primaires Nuxt UI */
+  --ui-primary: #0072FF;
+  --ui-color-primary-50: #E6F2FF;
+  --ui-color-primary-100: #CCE5FF;
+  --ui-color-primary-200: #99CBFF;
+  --ui-color-primary-300: #66B1FF;
+  --ui-color-primary-400: #3397FF;
+  --ui-color-primary-500: #0072FF;
+  --ui-color-primary-600: #005CE6;
+  --ui-color-primary-700: #0046B3;
+  --ui-color-primary-800: #003080;
+  --ui-color-primary-900: #001A4D;
+  --ui-color-primary-950: #000D26;
+  
+  /* Couleurs de texte Nuxt UI */
+  --ui-text: #344054;
+  --ui-text-highlighted: #101828;
+  --ui-text-secondary: #344054;
+  --ui-text-toned: #344054;
+  --ui-text-muted: #667085;
+  --ui-text-dimmed: #98A2B3;
+  
+  /* Couleurs de bordure Nuxt UI */
+  --ui-border-accented: #CAD5E2;
+  --ui-border: #D0D5DD;
+  --ui-border-muted: #D0D5DD;
+  --ui-border-inverted: #101828;
+  
+  /* Couleurs de fond Nuxt UI */
+  --ui-bg: #FFFFFF;
+  --ui-bg-muted: #F9FAFB;
+  --ui-bg-elevated: #FFFFFF;
+  --ui-bg-accented: #F2F4F7;
+  --ui-bg-inverted: #101828;
+  
+  /* Couleurs neutral pour Nuxt UI */
+  --ui-color-neutral-50: #F9FAFB;
+  --ui-color-neutral-100: #F2F4F7;
+  --ui-color-neutral-200: #E4E7EC;
+  --ui-color-neutral-300: #D0D5DD;
+  --ui-color-neutral-400: #98A2B3;
+  --ui-color-neutral-500: #667085;
+  --ui-color-neutral-600: #344054;
+  --ui-color-neutral-700: #1D2939;
+  --ui-color-neutral-800: #101828;
+  --ui-color-neutral-900: #0C111D;
+  --ui-color-neutral-950: #060A13;
+}
+
+/* Application de la police DM Sans globalement */
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Styles personnalisés pour le Stepper */
+/* Texte blanc dans les cercles du stepper actifs/complétés */
+[data-step][data-state="active"] [data-step-number],
+[data-step][data-state="completed"] [data-step-number] {
+  color: white !important;
+}
+
+/* Espacement pour les titres sous le stepper */
+.stepper-title {
+  margin-top: 28px;
+  margin-bottom: 24px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
